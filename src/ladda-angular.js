@@ -1,5 +1,6 @@
 (function () {
     'use strict';
+    var Ladda = require('ladda');
     angular.module('ladda', []).directive('laddaButton', function () {
         return {
             restrict: 'A',
