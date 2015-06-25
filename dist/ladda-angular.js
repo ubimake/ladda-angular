@@ -1,8 +1,9 @@
-/*! ladda-angular - v1.0.0 - 2015-03-07
+/*! ladda-angular - v1.0.1 - 2015-06-25
 * https://github.com/sachinchoolur/ladda-angular
 * Copyright (c) 2015 Sachin; Licensed MIT */
 (function () {
     'use strict';
+    var Ladda = require('ladda');
     angular.module('ladda', []).directive('laddaButton', function () {
         return {
             restrict: 'A',
